@@ -1,15 +1,5 @@
 ## Tabela Hash:
 
-### imprimirDadosAlunos
-
-```c
-void imprimirDadosAlunos()
-```
-
-- Essa função imprime os dados de dois alunos usando as funções `getAluno1` e `getAluno2`.
-- Ela chama as funções `printf` para imprimir os valores dos campos de cada aluno.
-- Em seguida, libera a memória alocada para as estruturas `aluno`.
-
 ### gerarTabelaHash
 
 ```c
@@ -51,9 +41,7 @@ void liberarTabelaHash(struct tabelaHash tabelaHash[], size_t tamTabela)
 
 - Essa função libera a memória alocada para a tabela hash e seus nós.
 - Recebe a tabela hash e o tamanho da tabela como parâmetros.
-- Itera sobre todos os nós da tabela hash, liberando a memória alocada para cada nó
-
-.
+- Itera sobre todos os nós da tabela hash, liberando a memória alocada para cada nó.
 - Libera a memória alocada para o array de ponteiros `tabela`.
 - Por fim, libera a memória alocada para a estrutura `tabelaHash`.
 
